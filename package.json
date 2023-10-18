@@ -5,7 +5,9 @@
     "dependencies": {
         "@emotion/react": "^11.11.1",
         "@emotion/styled": "^11.11.0",
-        "@mui/material": "^5.14.8",
+        "@mui/icons-material": "^5.14.9",
+        "@mui/material": "^5.14.10",
+        "@mui/x-data-grid": "^6.16.2",
         "@testing-library/jest-dom": "^5.17.0",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
@@ -21,7 +23,7 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
-        "start": "prettier --write \"{src,test}/**/*.{js,ts,tsx}\" && react-scripts start ",
+        "start": "react-scripts start ",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
@@ -47,10 +49,10 @@
     },
     "devDependencies": {
         "@iconify/react": "^4.1.1",
+        "onchange": "^7.0.2",
         "prettier": "3.0.3",
         "prettier-plugin-tailwindcss": "^0.5.4",
-        "tailwindcss": "^3.3.3",
-        "onchange": "^7.0.2"
+        "tailwindcss": "^3.3.3"
     },
     "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
     "main": "prettier.config.js",
